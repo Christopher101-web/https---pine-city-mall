@@ -1,0 +1,290 @@
+/*============ body ============*/
+
+body{
+   
+    font-family: Helvetica;
+}
+
+/*================== HEADER ==================*/
+
+#header{
+    position: fixed;
+    display: block;
+    text-align: center;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding-bottom: 15px;
+}
+
+#header a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+#header a:hover{
+    color: aqua;
+}
+
+/*============ TOP TABS ============*/
+
+#tabs-top{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: darkgray;
+}
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+#tabs-top a:hover{
+    color: aqua;
+}
+
+/*============ MAIN HOME ============*/
+
+#info-box-full img{
+    width: 100%;  
+}
+
+/*============ BOTTOM TABS ============*/
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: darkgray;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 31%;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+}
+
+#tabs-bottom a:hover{
+    color: aqua;
+}
+
+/*================== MAIN ==================*/
+
+#main{
+    margin-top: 100px;
+    background: url(images/metal.jpg);
+    background-repeat: repeat-y;
+    width: 100%;
+}
+
+/*================ INFO BOX ================*/
+
+.info-box{
+    text-decoration: none;
+    background: rgba(0, 0, 0, .80);
+    width: 100%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+    
+}
+
+.info-box h4{
+    padding: 0;
+    margin-bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+/*================ INFO BOX-1 ================*/
+
+.info-box-1{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .7);
+    width: 100%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box-1 img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+    
+}
+
+.info-box-1 h4{
+    padding: 0;
+    margin-bottom: 0;
+    width: 100%;
+    color: #131313;
+}
+
+.info-box-1 p{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #131313;
+}
+
+.info-box-1 img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+/*================ INFO BOX FULL ================*/
+
+#info-box-full h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#info-box-full h3{
+    text-align: center;
+}
+
+/*============== FORM ==============*/
+
+input{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+    font-weight: bold;
+}   
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+    font-weight: bold
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: aqua;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+select{
+    float: left;
+}
+
+/*================ CONTENT ================*/
+
+#content h1{
+    background: rgba(255, 255, 255, .8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 12px;
+    border: solid black;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+/*================ CONTENT-1 ================*/
+
+#content-1{
+    background-color: #000;
+}
+
+/*============ CONTENT INFO ============*/
+
+#content-info{
+    background-color: black;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+
+#content-info img{
+    width: 100%;
+    padding: 5px;
+}
+
+#content-info h1{
+    color: white;
+    text-align: center;
+}
+
+#content-info p{
+    text-align: center;
+    color: white;
+}
+
+#content-info h3{
+    color: white;
+    text-align: center;
+}
+
+
+   
+
+
+
+
+
+
